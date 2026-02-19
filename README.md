@@ -1,67 +1,42 @@
-# Hi, I'm Mebrahtom Kidane 👋
+# Hi, I'm Mebrahtom Kidane
 
 ### Full-Stack Software Engineer | Software Systems Architect
 
-I am a **Full-Stack Software Engineer** dedicated to engineering resilient, high-performance communication platforms. My work centers on the intersection of architectural integrity and UI fluidity, ensuring that complex systems remain reliable under load while providing a seamless user experience.
+I am a software engineer dedicated to building high-performance, resilient, and scalable full-stack web applications. I don't just write code; I architect high-end software systems from the ground up, leveraging my deep expertise in the Node.js, React, and Socket.io ecosystems.
 
-- 🔭 **Current Focus:** Refining distributed messaging architectures and custom build pipelines.
-- ⚡ **Specialization:** TypeScript-driven development, ACID-compliant state management, and real-time synchronization.
-- 🛠️ **Philosophy:** I believe in "Zero-Lag" interfaces and "All-or-Nothing" data integrity. If it isn't resilient, it isn't finished.
+## 1. Core Engineering Philosophy
 
----
+- **Resilience by Design:** I prioritize architectural reliability by decoupling user actions from immediate network dependencies through request-queue-based systems and background processing.
 
-## 🚀 Featured Project: [SemayChat](https://github.com/mebrahtomkg/SemayChat)
-**A high-performance, self-hosted messaging platform engineered for privacy and reliability.**
+- **Data Integrity & ACID Principles:** I implement strict transactional architectures for all state-mutating operations, utilizing row-level locking and two-phase resource cleanup to guarantee absolute data consistency.
 
-SemayChat isn't just a chat app; it's a study in robust systems architecture. It handles the complexities of real-time data, media processing, and network instability through custom-engineered solutions.
+- **Performance Optimization:** I advocate for a "Zero-Lag" philosophy, utilizing dynamic CSS variable injection for theming and hardware-accelerated animation engines that synchronize with the React lifecycle.
 
-### 🏗️ Architectural Highlights
-*   **Queue-Based Message Delivery:** Decouples UI actions from API calls using a global Zustand-based FIFO queue, ensuring 100% message delivery even during network transitions.
-*   **ACID-Compliant Transactions:** Implements strict Sequelize-managed transactions with Row-Level Locking to prevent race conditions and ensure data consistency.
-*   **Custom Rspack Build Pipeline:** Features a bespoke plugin (`AppRspackPlugin`) for Service Worker orchestration, enabling high-performance media caching without HMR conflicts.
-*   **Zero-Lag Theming:** A CSS-variable-driven architecture that bypasses React reconciliation for instantaneous theme switching.
-*   **Touch-Optimized UX:** A custom-built, off-screen canvas cropping system with pinch-to-zoom support for mobile-first profile management.
+- **Type-Safe Scalability:** With a codebase that is 98% TypeScript, I enforce strict typing from the database layer to the UI to significantly reduce runtime exceptions and facilitate long-term maintenance.
 
----
+## 2. Technology Stack
 
-## 🛠️ Tech Stack & Tools
+| Category           | Tools & Technologies                                         |
+| :----------------- | :----------------------------------------------------------- |
+| **Languages**      | TypeScript (98% of codebase), JavaScript                     |
+| **Frontend**       | React, Zustand, React Query, Styled Components, React Router |
+| **Backend**        | Node.js, ExpressJS, Socket.io (Real-time)                    |
+| **Database/ORM**   | Sequelize (PostgreSQL, MySQL, SQLite), Zod                   |
+| **Infrastructure** | Supabase Storage, Local Disk Storage, Service Workers        |
+| **Build Tools**    | Rspack, SWC, SVGR, Biome, Prettier                           |
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | `TypeScript (Expert)`, `JavaScript (ES6+)`, `SQL`, `HTML5/CSS3` |
-| **Frontend** | `React`, `Styled Components`, `Zustand`, `React Query`, `React Router` |
-| **Backend** | `Node.js`, `Express`, `Socket.io`, `Sequelize ORM`, `Zod` |
-| **DevOps & Tools** | `Rspack`, `Service Workers`, `Git`, `PostgreSQL`, `SQLite`, `Supabase` |
-| **Design** | `Inkscape (Custom SVG Pipeline)`, `SVGR` |
+## 3. Featured Project: [SemayChat](https://github.com/mebrahtomkg/semaychat)
 
----
+SemayChat is a high-performance, real-time messaging platform engineered for reliability and user privacy. This project serves as a comprehensive demonstration of my ability to architect and deploy complex, production-grade full-stack systems from the ground up.
 
-## 🧠 Engineering Philosophy
+- **Advanced Message Queuing:** When a user writes, edits, or deletes a message and hits a button, the project doesn't just make an API call. Instead, it queues these actions into a global Zustand-based store, where a background processor executes them sequentially. This ensures strict **FIFO ordering** and automatic retries upon network restoration to maintain data integrity.
 
-> *"Software is only as strong as its weakest failure mode."*
+- **Database-Agnostic Architecture:** Leveraged Sequelize to support PostgreSQL, MySQL, and even SQLite, enabling flexible, environment-specific deployments without code changes.
 
-My approach to development is defined by three core pillars:
+- **Storage-Agnostic File Management:** Engineered a provider-based abstraction layer supporting both local disk and Supabase cloud storage, optimized via a **Service Worker-driven** caching layer for high-speed media delivery.
 
-1.  **Type Safety as a Foundation:** With a codebase exceeding 500 files, I utilize TypeScript (98% coverage) to ensure data structures remain consistent from the database layer to the final UI component.
-2.  **Resource Integrity:** I implement "Two-Phase Resource Cleanup" strategies—deferring physical file deletion until database transactions are confirmed—to prevent "ghost" files and orphaned data.
-3.  **Performance via Abstraction:** I prefer custom-built, lightweight logic (like my Declarative Lifecycle Animation Engine) over heavy external libraries to maintain a minimal memory footprint and maximum execution speed.
+- **Custom Build Pipeline:** Developed a specialized **Rspack plugin** for Service Worker orchestration, ensuring seamless asset caching and maintaining Hot Module Replacement (HMR) compatibility during development.
 
----
+- **Granular Privacy Framework:** Built a robust management system allowing users to independently control the visibility of their email, "last seen" status, and profile assets.
 
-## 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=mebrahtomkg&show_icons=true&theme=tokyonight" alt="Mebrahtom's GitHub Stats" />
-</p>
-
----
-
-## 📬 Connect with Me
-
-- **Portfolio/Project:** [SemayChat](https://github.com/mebrahtomkg/SemayChat)
-- **Role Interests:** Full-Stack Engineering, Systems Architecture, Real-time Systems.
-
----
-<p align="center">
-  <i>Built with precision, typed with intent.</i>
-</p>
+> **Architectural Note:** The project manages over 500 source files, delivering a high-end UI/UX while ensuring **ACID-compliant transactions** for all backend data operations.
