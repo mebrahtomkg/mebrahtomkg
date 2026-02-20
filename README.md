@@ -6,10 +6,11 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 ## 1. Core Engineering Philosophy
 
-- **Premium UI/UX: Fluidity & Aesthetic Motion:**
+- **Performant UI/UX & Aesthetic Animation:**
 
-  - I champion a 'Zero-Lag' philosophy, ensuring software feels as refined as it looks.
-  - By utilizing hardware-accelerated animations and intentional motion design, I ensure every user interaction is **smooth** and **attractive**.
+  - Animation is used intentionally to reduce cognitive load and provide clear visual feedback for every user interaction.
+
+  - I prioritize 60fps consistency by utilizing hardware-accelerated transitions and minimizing main-thread blocking.
 
 - **High-Performance Engineering:**
 
@@ -39,14 +40,15 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 ## 2. Technology Stack
 
-| Category           | Tools & Technologies                                         |
-| :----------------- | :----------------------------------------------------------- |
-| **Languages**      | TypeScript (98% of codebase), JavaScript                     |
-| **Frontend**       | React, Zustand, React Query, Styled Components, React Router |
-| **Backend**        | Node.js, ExpressJS, Socket.io (Real-time)                    |
-| **Database/ORM**   | Sequelize (PostgreSQL, MySQL, SQLite), Zod                   |
-| **Infrastructure** | Supabase Storage, Local Disk Storage, Service Workers        |
-| **Build Tools**    | Rspack, SWC, SVGR, Biome, Prettier                           |
+| Category            | Tools & Technologies                                                      |
+| :------------------ | :------------------------------------------------------------------------ |
+| **Languages**       | TypeScript (Expert), JavaScript (Expert/ES6+)                             |
+| **Frontend**        | React (Specialist), Zustand, React Query, Styled Components, React Router |
+| **Backend**         | Node.js, ExpressJS, Socket.io (Real-time)                                 |
+| **Database/ORM**    | Sequelize (PostgreSQL, MySQL, SQLite), Zod                                |
+| **Infrastructure**  | Supabase Storage, Local Disk Storage, Service Workers                     |
+| **Build Tools**     | Rspack, SWC, SVGR, Biome, Prettier                                        |
+| **Design & Assets** | Inkscape (High-Fidelity SVG Iconography & Vector Design)                  |
 
 ## 3. Featured Project: [SemayChat](https://github.com/mebrahtomkg/semaychat)
 
