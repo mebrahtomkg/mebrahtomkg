@@ -6,13 +6,13 @@ I am a software engineer dedicated to building high-performance, resilient, and 
 
 ## 1. Core Engineering Philosophy
 
-- **Resilience by Design:** I prioritize architectural reliability by decoupling user actions from immediate network dependencies through request-queue-based systems and background processing.
+- **Full-Stack Performance & Fluidity:** I advocate for a "Zero-Lag" philosophy across the entire stack, from optimized backend queries to ultra-responsive frontends. I believe software should feel as good as it looks; therefore, I utilize hardware-accelerated animations and efficient state management to ensure every interaction is smooth and intentional. To me, "done" means the system is not just functional, but attractive and high-performing, ensuring a premium experience that never feels sluggish or unpolished.
 
-- **Data Integrity & ACID Principles:** I implement strict transactional architectures for all state-mutating operations, utilizing row-level locking and two-phase resource cleanup to guarantee absolute data consistency.
+- **Readable, Modular, and Scalable Architecture:** I prioritize code that is easy to understand and maintain over unnecessarily complex solutions. Guided by DRY (Don't Repeat Yourself) and Single Responsibility principles, I break logic into small, focused files rather than bloated, multi-hundred-line components. This ensures that even a system with 500+ source files never feels like a "blackbox," but rather a collection of transparent, well-defined models and subsystems that are easy to navigate and scale.
 
-- **Performance Optimization:** I advocate for a "Zero-Lag" philosophy, utilizing dynamic CSS variable injection for theming and hardware-accelerated animation engines that synchronize with the React lifecycle.
+- **TypeScript over Vanilla JS:** I favor TypeScript to ensure a self-documenting, robust codebase where the architecture is easy to understand and navigate. By enforcing strict typing from the database layer to the UI, I eliminate the unpredictability of vanilla JavaScript and catch errors during development rather than in production. This approach guarantees end-to-end predictability and provides the developer confidence required for fearless refactoring and simplified long-term maintenance.
 
-- **Type-Safe Scalability:** With a codebase that is 98% TypeScript, I enforce strict typing from the database layer to the UI to significantly reduce runtime exceptions and facilitate long-term maintenance.
+- **Data Integrity & Proactive Error Resilience:** I handle edge cases at the architectural level before a single line of code reaches the testing phase. I implement strict transactional architectures for all state-mutating operations—following the "all-or-nothing" principle—utilizing row-level locking and two-phase resource cleanup to guarantee absolute consistency. By treating "unhappy paths" as first-class citizens during development, I neutralize failures at the source, ensuring the system remains stable and predictable under any condition.
 
 ## 2. Technology Stack
 
