@@ -28,7 +28,7 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 - **TypeScript over Vanilla JS:**
 
-  -I utilize TypeScript to build self-documenting, robust codebases.
+  - I utilize TypeScript to build self-documenting, robust codebases.
 
   - By enforcing strict typing from the database layer to the UI, I eliminate the unpredictability of vanilla JavaScript. This end-to-end predictability provides the confidence required for fearless refactoring and long-term maintenance.
 
@@ -45,7 +45,8 @@ I architect high-end, resilient software systems from the ground up. With deep e
 | **Languages**       | TypeScript (Expert), JavaScript (Expert/ES6+)                             |
 | **Frontend**        | React (Specialist), Zustand, React Query, Styled Components, React Router |
 | **Backend**         | Node.js, ExpressJS, Socket.io (Real-time)                                 |
-| **Database/ORM**    | Sequelize (PostgreSQL, MySQL, SQLite), Zod                                |
+| **Database/ORM**    | Sequelize (PostgreSQL, MySQL, SQLite)                                     |
+| **Validation**      | Zod                                                                       |
 | **Infrastructure**  | Supabase Storage, Local Disk Storage, Service Workers                     |
 | **Build Tools**     | Rspack, SWC, SVGR, Biome, Prettier                                        |
 | **Design & Assets** | Inkscape (High-Fidelity SVG Iconography & Vector Design)                  |
@@ -64,4 +65,4 @@ SemayChat is a high-performance, real-time messaging platform engineered for rel
 
 - **Granular Privacy Framework:** Built a robust management system allowing users to independently control the visibility of their email, "last seen" status, and profile assets.
 
-> **Architectural Impact:** Manages over 500 source files while maintaining a premium UI/UX and **ACID-compliant** transactions for all backend operations.
+- Manages over 500 source files while maintaining a premium UI/UX and **ACID-compliant** transactions for all backend operations.
