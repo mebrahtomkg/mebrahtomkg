@@ -72,14 +72,32 @@ SemayChat is a high-performance, real-time messaging platform engineered for rel
 
 ### 3.2. [SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)
 
-A high-performance developer productivity suite that augments Sublime Text with IDE-grade intelligence by bridging it with a Node.js background service.
+A high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE comparable to VS Code, specifically for **Web Development and JavaScript/TypeScript projects**. It bridges Sublime’s agility with a Node.js background service to provide deep code intelligence without compromising speed.
 
-- **AST-Driven Intelligence:** Utilizes the **TypeScript Compiler API** to perform structural code analysis, enabling "Smart Selection" that understands code hierarchy (functions, objects, arrays) far beyond regex capabilities.
+- **Core Feature Set:**
 
-- **Hybrid Client-Server Lifecycle:** Engineered a resource-aware architecture using a **Python-based heartbeat system** and Node.js middleware to manage an auto-shutdown mechanism, ensuring zero idle resource consumption.
+  - **Smart Select:** Employs AST-powered logic to intelligently expand text selections based on code hierarchy (functions, arrays, objects), going far beyond simple regex matching.
 
-- **Non-Blocking Performance:** Offloads heavy tasks like Prettier formatting and AST parsing to a background process, maintaining a lag-free, 60fps editing experience in the host editor.
+  - **Seamless Formatting:** Offloads **Prettier** execution to a background Node.js instance, allowing for high-fidelity code formatting across dozens of file types without blocking the editor UI.
 
-- **Cross-Platform Orchestration:** Features a robust terminal spawning system that handles native terminal emulation across Windows, macOS, and Linux, independent of the parent process.
+  - **Task Management (List Scripts):** Dynamically scans the project for `package.json` files and provides a native quick-panel to browse all available `npm` scripts.
 
-- **Optimized Build Pipeline:** Bundled with **Rspack and SWC** into a single optimized CommonJS execution unit to minimize startup latency and dependency overhead.
+  - **Integrated Execution:** Launches scripts directly into native terminal emulators (CMD, Terminal.app, Gnome-terminal, etc.) using a transactional spawning strategy that persists independently of the editor.
+
+- **Architectural Details**
+
+  - **Ultra-Fast Client-Server Architecture:** By utilizing a persistent Node.js background service instead of spawning new processes for every action, the system eliminates cold-start overhead. This architecture delivers near-instantaneous performance:
+
+    - **Code Formatting:** < 80ms.
+    - **Smart-Select:** < 40ms.
+    - **List-Scripts:** < 50ms.
+
+  - **AST-Driven Intelligence:** Utilizes the **TypeScript Compiler API** to perform structural code analysis, enabling "Smart Selection" that understands code hierarchy (functions, objects, arrays) far beyond regex capabilities.
+
+  - **Hybrid Client-Server Lifecycle:** Engineered a resource-aware architecture using a **Python-based heartbeat system** and Node.js middleware to manage an auto-shutdown mechanism, ensuring zero idle resource consumption.
+
+  - **Non-Blocking Performance:** Offloads heavy tasks like Prettier formatting and AST parsing to a background process, maintaining a lag-free, 60fps editing experience in the host editor.
+
+  - **Cross-Platform Orchestration:** Features a robust terminal spawning system that handles native terminal emulation across Windows, macOS, and Linux, independent of the parent process.
+
+  - **Optimized Build Pipeline:** Bundled with **Rspack and SWC** into a single optimized CommonJS execution unit to minimize startup latency and dependency overhead.
