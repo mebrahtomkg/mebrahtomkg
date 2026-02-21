@@ -58,17 +58,23 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 SemayChat is a high-performance, real-time messaging platform engineered for reliability and user privacy. This project serves as a comprehensive demonstration of my ability to architect and deploy complex, production-grade full-stack systems from the ground up.
 
-- **Advanced Message Queuing:** When a user writes, edits, or deletes a message and hits send button, the project doesn't just make an API call. Instead, it queues these actions into a global Zustand-based store, where a background processor executes them sequentially. This ensures strict **FIFO ordering** and automatic retries upon network restoration to maintain data integrity.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08ba9551-303a-4a5b-8ba1-7f71e303a3b2" alt="SemayChat App Preview" width="800">
+</p>
 
-- **Database-Agnostic Architecture:** Leveraged Sequelize to support PostgreSQL, MySQL, and even SQLite, enabling flexible, environment-specific deployments without code changes.
+- **Architectural Details**
 
-- **Storage-Agnostic File Management:** Engineered a provider-based abstraction layer supporting both **Local disk** and **Supabase cloud storage**, optimized via a **Service Worker-driven** caching layer for high-speed media delivery.
+  - **Advanced Message Queuing:** When a user writes, edits, or deletes a message and hits send button, the project doesn't just make an API call. Instead, it queues these actions into a global Zustand-based store, where a background processor executes them sequentially. This ensures strict **FIFO ordering** and automatic retries upon network restoration to maintain data integrity.
 
-- **Custom Build Pipeline:** Developed a specialized **Rspack plugin** for Service Worker orchestration, ensuring seamless asset caching and maintaining Hot Module Replacement (HMR) compatibility during development.
+  - **Database-Agnostic Architecture:** Leveraged Sequelize to support PostgreSQL, MySQL, and even SQLite, enabling flexible, environment-specific deployments without code changes.
 
-- **Granular Privacy Framework:** Built a robust management system allowing users to independently control the visibility of their email, "last seen" status, and profile assets.
+  - **Storage-Agnostic File Management:** Engineered a provider-based abstraction layer supporting both **Local disk** and **Supabase cloud storage**, optimized via a **Service Worker-driven** caching layer for high-speed media delivery.
 
-- Manages over 500 source files while maintaining a premium UI/UX and **ACID-compliant** transactions for all backend operations.
+  - **Custom Build Pipeline:** Developed a specialized **Rspack plugin** for Service Worker orchestration, ensuring seamless asset caching and maintaining Hot Module Replacement (HMR) compatibility during development.
+
+  - **Granular Privacy Framework:** Built a robust management system allowing users to independently control the visibility of their email, "last seen" status, and profile assets.
+
+  - Manages over 500 source files while maintaining a premium UI/UX and **ACID-compliant** transactions for all backend operations.
 
 ### 3.2. [SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)
 
