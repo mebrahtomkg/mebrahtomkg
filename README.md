@@ -22,7 +22,7 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
   - I prioritize code that is easy to understand and maintain over unnecessarily complex solutions.
 
-  - Guided by DRY (Don't Repeat Yourself) and Single Responsibility principles, I break logic into small, focused modules rather than bloated, multi-hundred-line components.
+  - Guided by **DRY** (Don't Repeat Yourself) and Single Responsibility principles, I break logic into small, focused modules rather than bloated, multi-hundred-line components.
 
   - This ensures that even a system with 500+ source files remains transparent, well-defined, and easy to navigate.
 
