@@ -54,18 +54,53 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 ## 3. Engineering Foundation & Timeline
 
-- **[ 2016 - 2020 ] Studied Electrical & Computer Engineering:** This is when I gained a deep understanding of computer architecture—from the atomic level to transistors, registers, and microprocessors, up to full computer systems. I learned the basics of C++. During this period, I also built my foundation in object-oriented programming (OOP), particularly Java. On my own, I learned basic/intermediate PHP, HTML, CSS, JS, and MySQL. Between 2019 and 2020, I built personal mini web apps and web systems using core PHP, HTML, CSS, and MySQL databases. I also started learning Android app development.
+- **[ 2016 - 2020 ] Electrical & Computer Engineering Studies:**
 
-- **[ 2020 - 2021 ] Built functional Android apps:** During this time, I focused on Android app development and built two functional apps as part of my learning strategy:
+  - Gained a deep understanding of computer architecture—from the atomic level to transistors, registers, and microprocessors, up to full computer systems.
 
-  1. **File Manager & File Security:** A fully functional file manager and security app. It includes all the features of a default Android 5.1 file manager, plus zip/unzip functionality and AES-based encryption/decryption for files and folders (including filenames).
-  2. **Secret Notes App:** An application for writing secured notes that encrypts data using a user-defined password.
+  - Acquired basics of computer programming in `C++`.
 
-- **[ 2021 - 2023 ] Built Desktop apps:** During these years, I mastered deep Java OOP concepts such as interfaces, abstract classes, threading, Swing, and AWT. I built a desktop on-screen keyboard that functions exactly like the Windows native version, as well as a mini code editor desktop application.
+  - Gained foundational proficiency in `Java` and Object-Oriented Programming (`OOP`).
 
-- **[ 2023 - 2024 ] Built lightning-fast web apps:** I built a restaurant website in core PHP, jQuery, and JS that is 3x faster than WordPress. It includes a mini WordPress-like dashboard where non-coders can customize menus, pricing, and media. I also developed a custom mini-CMS web app that supports posts, categories, and image attachments, designed for blazing speed while maintaining core WordPress-style management features.
+  - Self-taught full-stack basics such as `PHP`, `HTML`, `CSS`, `JavaScript`, and `MySQL`.
 
-- **[ 2024 - 2026 ] Architected real-time complex full-stack applications and development tools:** During this period, I mastered TypeScript, React, Node.js, Express, and Socket.io. I architected and built **SemayChat** and **SpeedyDevHook**, focusing on high-end web apps and developer tooling. I also deployed SemayChat to the cloud using an automated CI/CD pipeline that triggers on every GitHub push.
+  - Developed several mini web apps and web systems using core `PHP`, `HTML`, `CSS`, and `MySQL` databases, between 2019 and 2020.
+
+  - Self-taught basics `Android` app development.
+
+- **[ 2020 - 2021 ] Android Application Development:**
+
+  - Focused on mobile engineering by building functional applications as a core learning strategy.
+
+  - **File Manager & Security:** Developed a fully functional file manager and security app. It includes all the features of a default `Android 5.1` file manager, plus **zip/unzip** functionality and `AES` based **encryption/decryption** for files and folders (including filenames).
+
+  - **Secure Note:** Created a secure note-taking application utilizing user-defined password encryption.
+
+- **[ 2021 - 2023 ] Desktop Software Engineering:**
+
+  - Mastered advanced `Java` **OOP** concepts, including interfaces, abstract classes, threading, and `GUI` development via `Swing` and `AWT`.
+
+  - Engineered a desktop **on-screen keyboard** that functions exactly like the Windows native version.
+
+  - Developed a mini **code editor** desktop application.
+
+- **[ 2023 - 2024 ] High-Performance Web Applications:**
+
+  - Engineered a **restaurant** website in core `PHP`, `jQuery`, and `JS` that is `3x` faster than WordPress. It includes a mini WordPress-like dashboard where non-coders can customize menus, pricing, and media of restaurant foods.
+
+  - Developed a **custom mini-CMS web app** that supports posts, categories, and image attachments, designed for **blazing speed** while maintaining core WordPress-style management features.
+
+- **[ 2024 - 2026 ] Real-time Full-Stack software Architecture & Developer Tooling:**
+
+  - Mastered the `TypeScript`, `React`, and `Node.js` ecosystems, integrating real-time capabilities via `Socket.io`.
+
+  - Architected and built **[SemayChat](https://github.com/mebrahtomkg/semaychat)**, A high-performance, real-time messaging platform engineered for reliability and user privacy.
+
+  - Deployed **[SemayChat](https://github.com/mebrahtomkg/semaychat)** live demo to cloud using an automated CI/CD pipeline that triggers on every GitHub push.
+
+  - Engineered **[SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)**, A high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE.
+
+  - Developed **[PrettierJet](https://github.com/mebrahtomkg/PrettierJet)**, Blazing-fast, non-blocking Prettier plugin for Sublime Text. Uses a persistent Node server to eliminate startup lag—20x faster than CLI-based plugins.
 
 ## 4. Featured Projects
 
