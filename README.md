@@ -2,6 +2,9 @@
 
 ### Full-Stack Software Engineer | Software Systems Architect
 
+[![Email](https://img.shields.io/badge/Email-mebrahtomkg1%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:mebrahtomkg1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mebrahtomkg-lightgrey?style=flat-square&logo=github)](https://github.com/mebrahtomkg)
+
 I architect high-end, resilient software systems from the ground up. With deep expertise in the **Node.js**, **React**, and **TypeScript** ecosystems, I specialize in building full-stack applications and developer tooling where high performance and scalability aren't just features—they are the foundation.
 
 ## 1. Core Engineering Philosophy
@@ -86,7 +89,7 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 - **[ 2023 - 2024 ] High-Performance Web Applications:**
 
-  - Engineered a custom **restaurant** website in core `PHP`, `jQuery`, and `JS` that is `3x` faster than WordPress. It includes a custom dashboard where non-coders can customize menus, pricing, and associated food media.
+  - Engineered a custom **restaurant** website in core `PHP`, `jQuery`, and `JS` that is faster than WordPress. It includes a custom dashboard where non-coders can customize menus, pricing, and associated food media.
 
   - Developed a **custom CMS web app** that supports posts, categories, and image attachments, designed for **blazing speed** while maintaining core standard CMS features.
 
@@ -157,3 +160,10 @@ A high-performance **Sublime Text plugin** designed to transform the lightweight
   - **Cross-Platform Orchestration:** Features a robust terminal spawning system that handles native terminal emulation across Windows, macOS, and Linux, independent of the parent process.
 
   - **Optimized Build Pipeline:** Bundled with **Rspack and SWC** into a single optimized CommonJS execution unit to minimize startup latency and dependency overhead.
+
+## 5. Let's Connect
+
+I'm always open to discussing software architecture, performance optimization, or potential collaborations and work.
+
+- **Email:** [mebrahtomkg1@gmail.com](mailto:mebrahtomkg1@gmail.com)
+- **GitHub:** [@mebrahtomkg](https://github.com/mebrahtomkg)
