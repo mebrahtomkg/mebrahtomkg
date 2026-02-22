@@ -66,13 +66,13 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
   - Developed several mini web apps and web systems using core `PHP`, `HTML`, `CSS`, and `MySQL` databases, between 2019 and 2020.
 
-  - Self-taught basics `Android` app development.
+  - Self-taught the basics of `Android` app development.
 
 - **[ 2020 - 2021 ] Android Application Development:**
 
   - Focused on mobile engineering by building functional applications as a core learning strategy.
 
-  - **File Manager & Security:** Developed a fully functional file manager and security app. It includes all the features of a default `Android 5.1` file manager, plus **zip/unzip** functionality and `AES` based **encryption/decryption** for files and folders (including filenames).
+  - **File Manager & Security:** Developed a fully functional file manager and security app. It includes all the features of a default `Android 5.1` file manager, plus **zip/unzip** functionality and **AES-based encryption/decryption** for files and folders (including filenames).
 
   - **Secure Note:** Created a secure note-taking application utilizing user-defined password encryption.
 
@@ -86,21 +86,21 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 - **[ 2023 - 2024 ] High-Performance Web Applications:**
 
-  - Engineered a **restaurant** website in core `PHP`, `jQuery`, and `JS` that is `3x` faster than WordPress. It includes a mini WordPress-like dashboard where non-coders can customize menus, pricing, and media of restaurant foods.
+  - Engineered a custom **restaurant** website in core `PHP`, `jQuery`, and `JS` that is `3x` faster than WordPress. It includes a custom dashboard where non-coders can customize menus, pricing, and associated food media.
 
-  - Developed a **custom mini-CMS web app** that supports posts, categories, and image attachments, designed for **blazing speed** while maintaining core WordPress-style management features.
+  - Developed a **custom CMS web app** that supports posts, categories, and image attachments, designed for **blazing speed** while maintaining core standard CMS features.
 
 - **[ 2024 - 2026 ] Real-time Full-Stack software Architecture & Developer Tooling:**
 
   - Mastered the `TypeScript`, `React`, and `Node.js` ecosystems, integrating real-time capabilities via `Socket.io`.
 
-  - Architected and built **[SemayChat](https://github.com/mebrahtomkg/semaychat)**, A high-performance, real-time messaging platform engineered for reliability and user privacy.
+  - Architected and built **[SemayChat](https://github.com/mebrahtomkg/semaychat)**, a high-performance, real-time messaging platform engineered for reliability and user privacy.
 
-  - Deployed **[SemayChat](https://github.com/mebrahtomkg/semaychat)** live demo to cloud using an automated CI/CD pipeline that triggers on every GitHub push.
+  - Deployed the **[SemayChat](https://github.com/mebrahtomkg/semaychat)** live demo to the cloud using an automated **CI/CD** pipeline.
 
-  - Engineered **[SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)**, A high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE.
+  - Engineered **[SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)**, a high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE.
 
-  - Developed **[PrettierJet](https://github.com/mebrahtomkg/PrettierJet)**, Blazing-fast, non-blocking Prettier plugin for Sublime Text. Uses a persistent Node server to eliminate startup lag—20x faster than CLI-based plugins.
+  - Developed **[PrettierJet](https://github.com/mebrahtomkg/PrettierJet)**, a blazing-fast, non-blocking Prettier plugin for Sublime Text that uses a persistent Node server to eliminate startup lag—20x faster than CLI-based plugins.
 
 ## 4. Featured Projects
 
