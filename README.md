@@ -45,7 +45,7 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
 | Category            | Tools & Technologies                                           |
 | :------------------ | :------------------------------------------------------------- |
-| **Languages**       | TypeScript, JavaScript (ES6+)                                  |
+| **Languages**       | TypeScript, JavaScript (ES6+), Java, PHP (Core)                |
 | **Frontend**        | React, Zustand, React Query, Styled Components, React Router   |
 | **Backend**         | Node.js, ExpressJS, Socket.io (Real-time), REST APIs           |
 | **Static Analysis** | TypeScript Compiler API (AST Traversal), Prettier API          |
