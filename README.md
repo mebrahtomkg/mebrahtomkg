@@ -99,7 +99,7 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
   - Architected and built **[SemayChat](https://github.com/mebrahtomkg/semaychat)**, a high-performance, real-time messaging platform engineered for reliability and user privacy.
 
-  - Deployed the **[SemayChat](https://github.com/mebrahtomkg/semaychat)** live demo to the cloud using an automated **CI/CD** pipeline.
+  - Deployed **[SemayChat Live Demo](https://semaychat.pages.dev)** to the cloud using an automated **CI/CD** pipeline.
 
   - Engineered **[SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)**, a high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE.
 
@@ -128,6 +128,10 @@ SemayChat is a high-performance, real-time messaging platform engineered for rel
   - **Granular Privacy Framework:** Built a robust management system allowing users to independently control the visibility of their email, "last seen" status, and profile assets.
 
   - Manages over 500 source files while maintaining a premium UI/UX and **ACID-compliant** transactions for all backend operations.
+
+- **Explore the Live Demo:**
+
+  **Access the fully functional production instance here: [SemayChat Live Demo](https://semaychat.pages.dev)**
 
 ### 4.2. [SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)
 
