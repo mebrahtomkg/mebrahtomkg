@@ -61,7 +61,7 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
   - Gained a deep understanding of computer architecture—from the atomic level to transistors, registers, and microprocessors, up to full computer systems.
 
-  - Acquired basics of computer programming in `C++`.
+  - Acquired foundational programming skills in `C++`.
 
   - Gained foundational proficiency in `Java` and Object-Oriented Programming (`OOP`).
 
@@ -93,13 +93,15 @@ I architect high-end, resilient software systems from the ground up. With deep e
 
   - Developed a **custom CMS web app** that supports posts, categories, and image attachments, designed for **blazing speed** while maintaining core standard CMS features.
 
-- **[ 2024 - 2026 ] Real-time Full-Stack software Architecture & Developer Tooling:**
+- **[ 2024 - Present ] Real-time Full-Stack software Architecture & Developer Tooling:**
 
   - Mastered the `TypeScript`, `React`, and `Node.js` ecosystems, integrating real-time capabilities via `Socket.io`.
 
   - Architected and built **[SemayChat](https://github.com/mebrahtomkg/semaychat)**, a high-performance, real-time messaging platform engineered for reliability and user privacy.
 
-  - Deployed **[SemayChat Live Demo](https://semaychat.pages.dev)** to the cloud using an automated **CI/CD** pipeline.
+  - Architected and built **[MerkebAI](https://github.com/mebrahtomkg/merkebai)**, an open-source, production-grade, full-stack, real-time AI chat application.
+
+  - Deployed **SemayChat** and **MerkebAI** Live Demos to the cloud using an automated **CI/CD** pipeline.
 
   - Engineered **[SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)**, a high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE.
 
@@ -129,11 +131,39 @@ SemayChat is a high-performance, real-time messaging platform engineered for rel
 
   - Manages over 500 source files while maintaining a premium UI/UX and **ACID-compliant** transactions for all backend operations.
 
-- **Explore the Live Demo:**
+- **Live Demo:**
 
-  **Access the fully functional production instance here: [SemayChat Live Demo](https://semaychat.pages.dev)**
+  **[SemayChat Live Demo](https://semaychat.pages.dev)**
 
-### 4.2. [SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)
+### 4.2. [MerkebAI](https://github.com/mebrahtomkg/merkebai)
+
+An open-source, production-grade, real-time AI chat application. Engineered to be highly resilient, it features live AI response streaming, persistent state management, and a premium mobile-optimized UI. Built with TypeScript, React, Node.js, and Socket.io.
+
+<p align="center">
+  <img src="https://cdn.mebrahtom.com/merkebai-preview-light.png" alt="MerkebAI Preview" width="800">
+</p>
+
+- **Features**
+
+  - **Premium UI/UX:** Modern aesthetics with fluid animations for a highly responsive and engaging interface.
+
+  - **Real-Time AI Messaging & Streaming:** Instantaneous message exchange featuring live, low-latency streaming of AI responses.
+
+  - **Smart Chat Title Generation:** Automatically generates concise, context-aware titles for conversations using lightweight AI processing.
+
+  - **Mobile-Optimized Navigation:** Includes custom hardware back-button integration (`useHardwareBack`) that gracefully manages mobile navigation stacks, allowing users to dismiss modals and sidebars using native device controls.
+
+  - **Persistent State Management:** Automatically saves all conversations and metadata, ensuring a seamless, continuous experience across devices and browser sessions.
+
+  - **Granular History Control:** Empowers users with complete data autonomy, providing the ability to seamlessly delete individual messages or clear entire chat histories.
+
+  - **Dynamic Theming:** Seamlessly supports and transitions between light and dark modes based on user preference.
+
+- **Live Demo**
+
+  - **[MerkebAI Live Demo](https://merkebai.mebrahtom.com)**
+
+### 4.3. [SpeedyDevHook](https://github.com/mebrahtomkg/speedy-dev-hook)
 
 A high-performance **Sublime Text plugin** designed to transform the lightweight editor into a high-end IDE comparable to VS Code, specifically for **Web Development and JavaScript/TypeScript projects**. It bridges Sublime’s agility with a Node.js background service to provide deep code intelligence without compromising speed.
 
@@ -169,5 +199,7 @@ A high-performance **Sublime Text plugin** designed to transform the lightweight
 
 I'm always open to discussing software architecture, performance optimization, or potential collaborations and work.
 
+- **Website:** [www.mebrahtom.com](https://mebrahtom.com)
 - **Email:** [mebrahtomkg1@gmail.com](mailto:mebrahtomkg1@gmail.com)
+- **LinkedIn:** [www.linkedin.com/in/mebrahtomkg](https://www.linkedin.com/in/mebrahtomkg)
 - **GitHub:** [@mebrahtomkg](https://github.com/mebrahtomkg)
